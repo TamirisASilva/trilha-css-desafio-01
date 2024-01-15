@@ -11,8 +11,10 @@ h1 {
     color:#33A8DB;
 }
 p{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
+    text-align: center;
+    line-height: 18.78px;
 }
 .banner {
     background-image: url(../images/banner.png);
@@ -27,9 +29,23 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
 }
-h2{
+#transform-world h2{
+    font-family: 'Raleway';
     color:#33A8DB;
     font-weight: 700;
+}
+#transform-world p{
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: lowercase;
+    width: 300px;
+    height: 141px;
+    line-height: 46.96px;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 1px 1px 1px 1px rgba(51, 168, 219, 1);
+    text-shadow: 3px 3px rgba(51, 168, 219, 1);
+
 
 }
 .banner-content{
@@ -50,14 +66,64 @@ button{
 .modules-list{
     width: 1400px;
     height: 300px;
-    text-align: center;
+    margin: 0;
 
 }
 .module{
-    border: 2px solid rgba(51, 168, 219, 1);
-    border-radius: 50px;
-    width: 550px;
-    height: 19px;
+    border: 1px solid rgba(51, 168, 219, 1);
+    border-radius: 57px;
+    background-color: rgba(37, 37, 37, 1);
+    width: 535px;
+    height: 51px;
     font-size: 16px;
     font-weight: 400;
+    margin-left: 100px;
+    margin-top: 15px;
+    line-height: 18.78px;
+    text-align: center;
+    padding: 1px;
+    gap: 10px;
+}
+span{
+    color: rgba(51, 168, 219, 1);
+}
+#course-content{
+    height: 325px;
+    width: 792px;
+    margin-top: 100px;
+    margin-left: 324px;
+    text-align: center;
+    grid-gap: 24px;
+}
+#course-content h2{
+    color: rgba(51, 168, 219, 1);
+    font-family: 'Raleway';
+
+}
+#professional-challenges h2{
+    color: rgba(51, 168, 219, 1);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    text-align: center;
+    height: 76px;
+    width: 746px;
+}
+#professional-challenge p{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;
+    width: 792px;
+    height: 76px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    border-top: 1px solid #33A8DB;
+}
+a{
+    color: #33A8DB;
+   font-weight: bold;
 }
