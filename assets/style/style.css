@@ -4,6 +4,7 @@ body {
     background-color:black;
      color:white;
     font-family: 'Raleway', sans-serif;
+    padding-bottom: 1%;
 }
 h1 {
     font-size: 32px;
@@ -28,6 +29,8 @@ p{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: 1px solid rgba(51, 168, 219, 1);
+    border-top: 1px solid rgba(51, 168, 219, 1);
 }
 #transform-world h2{
     font-family: 'Raleway';
@@ -43,15 +46,19 @@ p{
     height: 141px;
     line-height: 46.96px;
     color: rgba(255, 255, 255, 1);
-    box-shadow: 1px 1px 1px 1px rgba(51, 168, 219, 1);
     text-shadow: 3px 3px rgba(51, 168, 219, 1);
-
-
+    box-shadow: 1px 1px 1px 1px  rgba(51, 168, 219, 1);
+    position: relative;
+    left:9%;
+    top: 20%;
 }
 .banner-content{
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0.1) 100%);
     width: 1440px;
     height: 405px;
+    border-bottom: 1px solid rgba(51, 168, 219, 1);
+
+    ;
 }
 button{
     font-size:  16px;
@@ -83,6 +90,7 @@ button{
     text-align: center;
     padding: 1px;
     gap: 10px;
+  
 }
 span{
     color: rgba(51, 168, 219, 1);
@@ -100,25 +108,7 @@ span{
     font-family: 'Raleway';
 
 }
-#professional-challenges h2{
-    color: rgba(51, 168, 219, 1);
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 37.57px;
-    text-align: center;
-    height: 76px;
-    width: 746px;
-}
-#professional-challenge p{
-    font-family: 'Raleway';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18.78px;
-    width: 792px;
-    height: 76px;
-    text-align: center;
-}
+
 footer{
     text-align: center;
     border-top: 1px solid #33A8DB;
@@ -126,4 +116,12 @@ footer{
 a{
     color: #33A8DB;
    font-weight: bold;
+}
+#professional-challenges h2{
+    color: rgba(51, 168, 219, 1);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;    
+    letter-spacing: 0.19em;
 }
